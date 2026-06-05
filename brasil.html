@@ -12,31 +12,32 @@
 <body id="duas-colunas" class="brasil">
     <!--Inicio Container-->
     <div id="container">
-        <div id="topo">
+        <header id="topo">
            <h1 class="logo">Noticias Cidade</h1>
-           <ul id="navegacao">
-                <li class="primeiro">
-                    <a id="home" href="index.html">Home</a></li>
-                <li>
-                    <a id="brasil" href="brasil.html">Brasil</a></li>
-                <li>
-                    <a id="internacional" href="internacional.html">Internacional</a></li>
-                <li>
-                    <a id="economia" href="economia.html">Economia</a></li>
-                <li>
-                    <a id="saude" href="saude.html">Saúde</a></li>
-                <li>
-                    <a id="ciencia" href="ciencia.html">Ciência</a></li>
-                <li>
-                    <a id="fotos" href="fotos.html">Fotos</a></li>
-           </ul>
-
-        </div><!--Fim Topo-->
+           <nav>
+                <ul id="navegacao">
+                        <li class="primeiro">
+                            <a id="home" href="index.html">Home</a></li>
+                        <li>
+                            <a id="brasil" href="brasil.html">Brasil</a></li>
+                        <li>
+                            <a id="internacional" href="internacional.html">Internacional</a></li>
+                        <li>
+                            <a id="economia" href="economia.html">Economia</a></li>
+                        <li>
+                            <a id="saude" href="saude.html">Saúde</a></li>
+                        <li>
+                            <a id="ciencia" href="ciencia.html">Ciência</a></li>
+                        <li>
+                            <a id="fotos" href="fotos.html">Fotos</a></li>
+                </ul>
+            </nav>    
+        </header><!--Fim Topo-->
     
-    <div id="conteudo">
-        <div id="primario">
+    <main id="conteudo">
+        <section id="primario">
 
-            <div class="caixa destaque">
+            <article class="caixa destaque">
                 <h2>Última entrevista</h2>
                 <div class="caixa-conteudo">
                     <h3>entrevista com Felipe Silva</h3>
@@ -46,9 +47,9 @@
                    </p>
                    <a href="">Leia mais!</a>
                 </div>
-            </div>
+            </article>
 
-            <div class="caixa">
+            <article class="caixa">
                 <h2>Mundo</h2>
                 <div class="caixa-conteudo">
                     <ul id="lista-noticias">
@@ -98,14 +99,13 @@
                     </ul>
 
                 </div>
-            </div>
+            </article>
 
-        </div>
-    </div>
+        </section>
 
-        <div id="lateral">
+          <aside id="lateral">
 
-            <div class="caixa">
+            <section class="caixa">
                 <h2>Entrevistas</h2>
                 <div class="caixa-conteudo">
                     <ul>
@@ -119,9 +119,9 @@
                         <li><a href="">Fernando Weiss</a></li>
                     </ul>
                 </div>
-            </div>
+            </section>
 
-                <div class="caixa">
+                <section class="caixa">
                 <h2>News</h2>
                 <div class="caixa-conteudo">
                     
@@ -137,21 +137,22 @@
                         </div>
                         
                     </form>
-
                 </div>
-            </div>
+            </section>
             
-        </div><!--fim lateral-->
-    </div>
+            
+        </aside><!--fim lateral-->
+
+    </main>
+
 
 </div><!--Fim Container-->
 
-<div id="container-rodape" style="clear: both;">
+<footer id="container-rodape" style="clear: both;">
     <div id="rodape">
          &copy; Copyright 2000-2018 Notícias Cidade
     </div>
-   
-</div>
+</footer>
 
 </body>
 
